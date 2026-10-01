@@ -1,0 +1,37 @@
+<svg width="880" height="1080" viewBox="0 0 880 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="760" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FDFF"/>
+      <stop offset=".38" stop-color="#E8E4FF"/>
+      <stop offset=".72" stop-color="#FBE8FF"/>
+      <stop offset="1" stop-color="#D8F8FF"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="470" y1="205" x2="646" y2="619" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFECEB"/>
+      <stop offset="1" stop-color="#F0C8CF"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="276" y1="118" x2="554" y2="759" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#323047"/>
+      <stop offset=".5" stop-color="#564A70"/>
+      <stop offset="1" stop-color="#A384AB"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="220" y1="706" x2="698" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFCFF"/>
+      <stop offset=".5" stop-color="#E9E8FA"/>
+      <stop offset="1" stop-color="#F9E8FB"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="38"/></filter>
+  </defs>
+  <rect width="880" height="1080" rx="440" fill="url(#bg)"/>
+  <circle cx="158" cy="278" r="120" fill="#BEF3FE" opacity=".6" filter="url(#blur)"/>
+  <circle cx="720" cy="778" r="142" fill="#F1B0FE" opacity=".45" filter="url(#blur)"/>
+  <path d="M238 1080C242 879 310 736 441 698C567 661 706 757 768 1080H238Z" fill="url(#dress)"/>
+  <path d="M416 734C389 665 394 603 430 549L581 534C561 613 577 672 623 727C565 774 488 778 416 734Z" fill="url(#skin)"/>
+  <path d="M343 203C375 111 474 78 570 118C647 149 689 221 674 296C663 350 623 373 596 428C570 480 596 547 553 606C508 668 389 645 331 558C273 471 306 312 343 203Z" fill="url(#hair)"/>
+  <path d="M443 166C515 128 611 159 639 231C657 279 635 318 601 349C578 370 568 395 576 430C587 477 613 518 571 558C523 604 430 568 406 492C388 438 407 394 392 345C372 280 387 195 443 166Z" fill="url(#skin)"/>
+  <path d="M399 345C365 271 391 184 459 144C412 131 354 164 324 232C290 310 297 456 353 538C391 593 449 626 494 616C422 568 392 505 405 431C411 399 413 373 399 345Z" fill="url(#hair)"/>
+  <path d="M555 280C577 273 599 279 615 294" stroke="#706276" stroke-width="7" stroke-linecap="round"/>
+  <path d="M606 364C586 376 562 378 541 368" stroke="#B97986" stroke-width="6" stroke-linecap="round"/>
+  <path d="M462 119C531 91 622 117 665 191" stroke="white" stroke-opacity=".65" stroke-width="10" stroke-linecap="round"/>
+  <path d="M122 829C286 702 544 704 785 870" stroke="white" stroke-opacity=".56" stroke-width="16" stroke-linecap="round"/>
+</svg>
